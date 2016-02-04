@@ -21,3 +21,10 @@ LazyRest的工作方式是
 
 # 使用教程
 LR很难直接理解，为了能节省你的时间，请认真阅读这篇文章 http://ftqq.com/lazyrest/
+
+
+# https 说明
+拉取https分支代码
+在数据库lpdb中创建名为user的表，添加account和password字段
+创建一个用户后，用下面方法即可获取token
+https://your.domain.com/api/user/get_token/account=yourname&password=123456
